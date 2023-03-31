@@ -1,0 +1,106 @@
+h1{
+    font-style:italic;
+    font-weight:bold;
+    font-size: 100 px; 
+    font-family: "comic Sans Ms" , sans-serif;
+    text-align:center; 
+    line-height : 1.6;
+    text-decoration:underline;
+    border-top:solid 5px red;
+    border-right:solid 10px cyan;
+    border-bottom:solid 7px blue;
+    border-left:solid 12px yellow;
+    padding: 5px 10px 12px 15px;
+}
+
+ul { 
+    list-style-type: none;
+    overflow: hidden;
+    background-color: green;}
+.a{
+    float: left; 
+}
+.a a {   display: inline-block;
+}
+
+.activo {
+    background-color: blue;
+}  
+
+div{
+    border-top:solid 7px black;
+    border-right:solid 7px black;
+    border-bottom:solid 7px black;
+    border-left:solid 7px black;
+    border-style: dashed;
+    padding: 5px 10px 12px 15px;
+    margin: 5px 10px 12px 15px;
+}
+
+
+p {
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;
+    font-weight: 100;
+    background-color: beige;
+}
+
+#titulo-secundario{
+   color:red; 
+}
+
+.texto{
+    background-color: green;
+}
+
+button,#titulo-secundario{
+    background-color: violet;
+}
+
+#titulo-secundario + p {
+    color:blue
+}
+
+div >button {
+    border:brown 2px solid;
+}
+
+.circle {
+    list-style-type: circle;
+    list-style-position: outside;
+    color: aqua;
+    background-image : url(https://media.tycsports.com/files/2023/01/26/527553/racing_862x485.webp);
+    background-repeat: space;
+    background-position: left;
+    background-size: 30%;
+}
+
+.disc {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: yellow;
+    background-color: blue;
+}
+
+.square {
+    list-style-type: square;
+    list-style-position: inside;
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGzSprnqC_COH1z4XkFitBpvMCwJ0mPqHTvA&usqp=CAU);
+    background-repeat: space repeat;
+    background-position: left;
+    background-size: 30%;
+}
+
+.armenian {
+    list-style-type: armenian;
+    color:black;
+    background-color: red;
+}
+
+.hebrew {
+    list-style-type: hebrew;
+    color:blue;
+    background-color: red;
+}
